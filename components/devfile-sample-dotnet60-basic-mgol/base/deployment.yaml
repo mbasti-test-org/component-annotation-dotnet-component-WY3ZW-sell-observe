@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-mgol
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/mbasti-test-org/rs-demos-ieue-tenant/component-annotation-dotnet-component/devfile-sample-dotnet60-basic-mgol@sha256:6c020b21f9763184c91b57bda3ecfae249fc4bc5193095428d3270542171a7b7
         imagePullPolicy: Always
         name: main
         ports:
